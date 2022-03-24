@@ -5,8 +5,17 @@ import VIDEO2 from '../../assets/portfolio2.webm';
 import VIDEO3 from '../../assets/portfolio3.mp4';
 import VIDEO4 from '../../assets/portfolio4.mp4';
 import VIDEO5 from '../../assets/portfolio5.webm';
+import VIDEO6 from '../../assets/portfolio6.webm';
 
 const portfolioData = [
+  {
+    id: 6,
+    video: VIDEO6,
+    title: 'Portfolio Pessoal Feito em React',
+    description: 'Meu Portfolio Pessoal feito em React.js',
+    github: 'https://github.com/vitordutra/react-portfolio-website',
+    demo: 'https://react-portfolio-website-theta.vercel.app/',
+  },
   {
     id: 1,
     video: VIDEO1,
