@@ -15,7 +15,7 @@
 .testimonial {
   background: var(--color-bg-variant);
   text-align: center;
-  padding: 2rem;
+  padding: 5rem 2rem;
   border-radius: 2rem;
   user-select: none;
 }

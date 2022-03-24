@@ -28,8 +28,8 @@ const Contact = () => {
 
   return (
     <section id='contact'>
-      <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
+      <h5>Vamos conversar? Entre em</h5>
+      <h2>Contato</h2>
 
       <div className='container contact__container'>
         <div className='contact__options'>
@@ -41,7 +41,7 @@ const Contact = () => {
               href='mailto:dutra.jvitor@gmail.com'
               target='_blank'
               rel='noreferrer'>
-              Send me an Email
+              Me envie um Email
             </a>
           </article>
           <article className='contact__option'>
@@ -52,7 +52,7 @@ const Contact = () => {
               href='https://www.linkedin.com/in/vitor-dutra/'
               target='_blank'
               rel='noreferrer'>
-              Contact me on LinkedIn
+              Entre em contato no LinkedIn
             </a>
           </article>
           <article className='contact__option'>
@@ -63,7 +63,7 @@ const Contact = () => {
               href='https://api.whatsapp.com/send?phone=+5598982470868'
               target='_blank'
               rel='noreferrer'>
-              Contact me on WhatsApp
+              Entre em contato no WhatsApp
             </a>
           </article>
         </div>
@@ -72,17 +72,17 @@ const Contact = () => {
           <input
             type='text'
             name='name'
-            placeholder='Your Full Name'
+            placeholder='Seu Nome Completo'
             required
           />
-          <input type='email' name='email' placeholder='Your Email' required />
+          <input type='email' name='email' placeholder='Seu Email' required />
           <textarea
             name='message'
             rows='7'
-            placeholder='Your Message'
+            placeholder='Sua mensagem'
             required></textarea>
           <button type='submit' className='btn btn-primary'>
-            Send Message
+            Enviar Mensagem
           </button>
         </form>
       </div>
