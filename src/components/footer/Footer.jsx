@@ -17,38 +17,35 @@ const Footer = () => {
           <a href='#'>Home</a>
         </li>
         <li>
-          <a href='#about'>About</a>
+          <a href='#about'>Sobre mim</a>
         </li>
         <li>
-          <a href='#experience'>Experience</a>
-        </li>
-        <li>
-          <a href='#services'>Services</a>
+          <a href='#experience'>Experiência</a>
         </li>
         <li>
           <a href='#portfolio'>Portfolio</a>
         </li>
         <li>
-          <a href='#testimonials'>Testimonials</a>
+          <a href='#testimonials'>Depoimentos</a>
         </li>
         <li>
-          <a href='#contact'>Contact</a>
+          <a href='#contact'>Contato</a>
         </li>
       </ul>
       <div className='footer__socials'>
-        <a href='https://github.com'>
+        <a href='https://github.com/vitordutra'>
           <AiFillGithub />
         </a>
-        <a href='https://instagram.com'>
+        <a href='https://www.instagram.com/j.vitordutra/'>
           <AiOutlineInstagram />
         </a>
-        <a href='https://twitter.com'>
+        <a href='https://twitter.com/_vitor_dutra'>
           <AiOutlineTwitter />
         </a>
       </div>
 
       <div className='footer__copyright'>
-        <small>&copy; Vitor Dutra. All Rights Reserved</small>
+        <small>&copy; Vitor Dutra. Todos os direitos reservados</small>
       </div>
     </footer>
   );
